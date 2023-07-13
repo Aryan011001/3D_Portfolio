@@ -14,7 +14,8 @@ const StarWrapper = (Component, idName) =>
         className={`${styles.padding} max-w-7xl mx-auto relative z-0`}
       >
         <span className='hash-span' id={idName}>
-          &nbsp;
+          {/* empty space */}
+          &nbsp; 
         </span>
 
         <Component />

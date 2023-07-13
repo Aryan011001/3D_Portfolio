@@ -52,4 +52,5 @@ const About = () => {
     </>
   )
 }
+//sectionWrapper hai so that upar se niche tak ye poora centered rahe
 export default SectionWrapper(About, "about");
