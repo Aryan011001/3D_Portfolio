@@ -38,7 +38,7 @@ const Experience = () => {
             </div>
           }
         >
-<<<<<<< HEAD
+
           <motion.h3 className="vertical-timeline-element-title" >Full stack Developer</motion.h3>
           <h4 className="vertical-timeline-element-subtitle" >Meta</h4>
           <motion.p whileHover={"visible"}>
@@ -47,7 +47,7 @@ const Experience = () => {
             <li>Implementing responsive design and ensuring cross-browser compatibility.</li>
             <li>Participating in code reviews and providing constructive feedback to other developers.</li>
           </motion.p>
-=======
+
           <h3 className="vertical-timeline-element-title">Full stack Developer</h3>
           <h4 className="vertical-timeline-element-subtitle">Meta</h4>
           <p>
@@ -56,7 +56,7 @@ const Experience = () => {
             <li>Implementing responsive design and ensuring cross-browser compatibility.</li>
             <li>Participating in code reviews and providing constructive feedback to other developers.</li>
           </p>
->>>>>>> origin/main
+
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -145,8 +145,4 @@ const Experience = () => {
   );
 };
 
-<<<<<<< HEAD
 export default SectionWrapper(Experience, "work") 
-=======
-export default SectionWrapper(Experience, "work") 
->>>>>>> origin/main
