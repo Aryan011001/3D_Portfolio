@@ -15,9 +15,9 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I am <span className='text-[#915EFF]'>Aryan</span></h1>
           {/* p tag mein br hai for small devices */}
-          <p className={'${styles.heroSubText} mt-2 tex-white-100 '}>
+          <motion.p className={'${styles.heroSubText} mt-2 tex-white-100 '}>
             I develop 3D visuals, user <br className='sm:block hidden' /> interfaces and web aplications
-          </p>
+          </motion.p>
         </div>
       </div>
       <ComputersCanvas />
